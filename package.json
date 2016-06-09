@@ -1,0 +1,16 @@
+{
+  "name": "light-bucket",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "watch": "watchify main.js -o public/bundle.js -dv"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "xhr": "^2.2.0",
+    "yo-yo": "^1.2.0"
+  }
+}
